@@ -1,4 +1,4 @@
-import React, { InputHTMLAttributes, ReactNode } from 'react'
+import React, { InputHTMLAttributes, ReactNode, Fragment} from 'react'
 
 import './checkbox.styl'
 
@@ -15,20 +15,20 @@ export const Checkbox = ({
   ...rest
 }: CheckboxProps) => {
   return (
-    <>
+    <Fragment>
       {Array.isArray(label) &&
         label.map(currentCheckbox => {
           return (
-            <>
+            <Fragment>
               <input
                 type="checkbox"
                 {...rest}
                 className={`dr-checkbox ${className}`}
               />
               <label htmlFor="scales">{currentCheckbox}</label>
-            </>
+            </Fragment>
           )
         })}
-    </>
+    </Fragment>
   )
 }

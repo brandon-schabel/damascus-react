@@ -1,6 +1,8 @@
-import React from 'react'
-import { Checkbox } from '../components'
-import { DamascusThemeProvider } from '../utils/DamascusThemeContext'
+import React
+  from
+    'react'
+import {Checkbox} from '../components'
+import {DamascusThemeProvider} from '../utils/DamascusThemeContext'
 
 export default {
   title: 'Checkbox',
@@ -8,10 +10,9 @@ export default {
 }
 export const Component = () => {
   return (
-    <>
-      <DamascusThemeProvider>
-        <Checkbox label={['My Checkbox1', 'My Checkbox2', 'My Checkbox3']} />
-      </DamascusThemeProvider>
-    </>
+    <DamascusThemeProvider>
+      <Checkbox label={['My Checkbox1', 'My Checkbox2', 'My Checkbox3']}/>
+    </DamascusThemeProvider>
+
   )
 }
