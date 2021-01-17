@@ -11,7 +11,7 @@
   "scripts": {
     "start": "node scripts/start.js",
     "build": "microbundle-crl --no-compress --format modern,cjs --css-modules false",
-    "build-watch": "microbundle-crl watch --no-compress --format modern,cjs",
+    "build-watch": "pnpm run build watch",
     "postbuild": "tsc --emitDeclarationOnly",
     "test": "jest -c ./jest.config.js",
     "test:watch": "jest -c ./jest.config.js --watch",

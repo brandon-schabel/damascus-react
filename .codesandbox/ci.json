@@ -1,0 +1,6 @@
+{
+  "sandboxes": [
+    "react",
+    "vanilla"
+  ]
+}
