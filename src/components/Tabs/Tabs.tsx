@@ -26,7 +26,7 @@ export const Tabs = ({ children, tabsConfig, ...rest }: tabsProps) => {
         const selectedClass = index === selectedTab ? '-selected' : ''
         return (
           <Button
-            className={`dc-tabs-header-button${selectedClass}`}
+            className={`dr-tabs-header-button${selectedClass}`}
             onClick={() => handleTabChange(index)}
           >
             {currConfig.tabName}
@@ -43,9 +43,9 @@ export const Tabs = ({ children, tabsConfig, ...rest }: tabsProps) => {
   }
 
   return (
-    <Box className="dc-tabs" {...rest}>
-      <Box className="dc-tabs-header">Header {renderTabHeader()}</Box>
-      <Box className="dc-tabs-content">{renderTabContent()}</Box>
+    <Box className="dr-tabs" {...rest}>
+      <Box className="dr-tabs-header">Header {renderTabHeader()}</Box>
+      <Box className="dr-tabs-content">{renderTabContent()}</Box>
     </Box>
   )
 }

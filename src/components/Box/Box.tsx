@@ -9,7 +9,7 @@ export interface boxProps extends HtmlHTMLAttributes<any> {
 
 export const Box = ({children, className = '', ...rest}: boxProps) => {
     return (
-        <div {...rest} className={`dc-box ${className}`}>
+        <div {...rest} className={`dr-box ${className}`}>
             {children}
         </div>
     )

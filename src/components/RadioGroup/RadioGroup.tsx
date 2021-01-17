@@ -50,7 +50,7 @@ export const RadioGroup = ({
   }
 
   return (
-    <fieldset {...props} role="radiogroup" className="dc-radio-group">
+    <fieldset {...props} role="radiogroup" className="dr-radio-group">
       {/*
         // @ts-ignore */}
       <legend>{LegendTextComponent && <LegendTextComponent />}</legend>

@@ -9,7 +9,7 @@ export interface ButtonProps extends ButtonHTMLAttributes<any> {
 
 export const Button = ({ children, className = '', ...rest }: ButtonProps) => {
   return (
-    <button {...rest} className={`dc-button ${className}`}>
+    <button {...rest} className={`dr-button ${className}`}>
       {children}
     </button>
   )

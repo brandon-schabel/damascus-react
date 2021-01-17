@@ -23,7 +23,7 @@ export const Checkbox = ({
               <input
                 type="checkbox"
                 {...rest}
-                className={`dc-checkbox ${className}`}
+                className={`dr-checkbox ${className}`}
               />
               <label htmlFor="scales">{currentCheckbox}</label>
             </>

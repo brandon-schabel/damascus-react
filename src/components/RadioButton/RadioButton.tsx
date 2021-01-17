@@ -42,14 +42,14 @@ export const RadioButton = ({
 
   return (
     <React.Fragment>
-      <label className="dc-radio-label">
+      <label className="dr-radio-label">
         <input
           type="radio"
           checked={checked}
           value={value}
           onClick={handleClick}
           onChange={handleOnChange}
-          className="dc-radio"
+          className="dr-radio"
           {...props}
         />
         {label && label}

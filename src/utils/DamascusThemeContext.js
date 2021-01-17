@@ -1,9 +1,9 @@
 import React, { createContext, useEffect, useContext, useState } from 'react'
 import { lightTheme, darkTheme } from './theme'
 
-export const VelocityThemeContext = createContext()
+export const DamascusThemeContext = createContext()
 
-export const VelocityThemeProvider = ({ children }) => {
+export const DamascusThemeProvider = ({ children }) => {
   const [theme, setTheme] = useState('dark')
 
   const applyTheme = () => {
@@ -21,14 +21,14 @@ export const VelocityThemeProvider = ({ children }) => {
   }, [theme])
 
   return (
-    <VelocityThemeContext.Provider value={{ theme, setTheme }}>
+    <DamascusThemeContext.Provider value={{ theme, setTheme }}>
       {children}
-    </VelocityThemeContext.Provider>
+    </DamascusThemeContext.Provider>
   )
 }
 
-export const useVelocityTheme = () => {
-  const { theme, setTheme } = useContext(VelocityThemeContext)
+export const useDamascusTheme = () => {
+  const { theme, setTheme } = useContext(DamascusThemeContext)
 
   return {
     theme,

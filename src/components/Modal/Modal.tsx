@@ -39,9 +39,9 @@ export const Modal = ({
   return (
     <Portal isOpen={isOpen}>
       {isOpen && (
-        <div className="dc-modal-background">
-          <div className="dc-modal-positioner">
-            <div className="dc-modal-content-container" ref={modalContentRef}>
+        <div className="dr-modal-background">
+          <div className="dr-modal-positioner">
+            <div className="dr-modal-content-container" ref={modalContentRef}>
               {/*<CloseButton />*/}
               {children}
             </div>

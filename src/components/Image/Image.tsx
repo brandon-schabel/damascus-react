@@ -9,7 +9,7 @@ export interface ImageProps extends ImgHTMLAttributes<any> {
 // TODO: add background image functionality
 export const Image = ({ children, alt, ...rest }: ImageProps) => {
   return (
-    <img className="dc-image" alt={alt} {...rest}>
+    <img className="dr-image" alt={alt} {...rest}>
       {children}
     </img>
   )

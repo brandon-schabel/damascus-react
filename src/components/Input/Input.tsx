@@ -5,5 +5,5 @@ import './input.styl'
 export type InputProps = InputHTMLAttributes<any>
 
 export const Input = (props: InputProps) => {
-  return <input className="dc-input" {...props} />
+  return <input className="dr-input" {...props} />
 }

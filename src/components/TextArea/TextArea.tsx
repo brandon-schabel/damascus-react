@@ -13,7 +13,7 @@ export const TextArea = ({
   ...rest
 }: TextAreaProps) => {
   return (
-    <textarea className={`dc-textarea ${className}`} {...rest}>
+    <textarea className={`dr-textarea ${className}`} {...rest}>
       {children}
     </textarea>
   )

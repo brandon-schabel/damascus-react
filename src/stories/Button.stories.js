@@ -1,9 +1,9 @@
-import React, { useState, useContext } from 'react'
-import { Button } from '../components'
+import React, {useState, useContext} from 'react'
+import {Button} from '../components'
 import {
-  VelocityThemeProvider,
-  VelocityThemeContext,
-} from '../utils/VelocityThemeContext'
+  DamascusThemeProvider,
+  DamascusThemeContext,
+} from '../utils/DamascusThemeContext'
 
 export default {
   title: 'Button',
@@ -18,9 +18,9 @@ export const Component = () => {
   // };
 
   return (
-    <VelocityThemeProvider>
+    <DamascusThemeProvider>
       {/*<Button onClick={changeTheme}>Click Me Plz</Button>*/}
       <Button>Click Me Plz</Button>
-    </VelocityThemeProvider>
+    </DamascusThemeProvider>
   )
 }

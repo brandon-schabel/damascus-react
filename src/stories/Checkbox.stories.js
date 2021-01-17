@@ -1,6 +1,6 @@
 import React from 'react'
 import { Checkbox } from '../components'
-import { VelocityThemeProvider } from '../utils/VelocityThemeContext'
+import { DamascusThemeProvider } from '../utils/DamascusThemeContext'
 
 export default {
   title: 'Checkbox',
@@ -9,9 +9,9 @@ export default {
 export const Component = () => {
   return (
     <>
-      <VelocityThemeProvider>
+      <DamascusThemeProvider>
         <Checkbox label={['My Checkbox1', 'My Checkbox2', 'My Checkbox3']} />
-      </VelocityThemeProvider>
+      </DamascusThemeProvider>
     </>
   )
 }

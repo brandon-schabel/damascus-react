@@ -1,13 +1,12 @@
 {
-  "name": "@brandon-schabel/damascus-components",
+  "name": "@brandon-schabel/damascus-react",
   "version": "0.0.1",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "./index.ts",
   "repository": {
     "type": "git",
-    "url": "ssh://git@github.com:brandon-schabel/velocity.git",
-    "directory": "projects/react-components"
+    "url": "ssh://git@github.com:brandon-schabel/damascus-react.git"
   },
   "scripts": {
     "start": "node scripts/start.js",
