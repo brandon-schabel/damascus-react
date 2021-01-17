@@ -1,0 +1,46 @@
+.dc-modal {
+  &-background {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.75);
+    top: 0;
+    left: 0;
+  }
+
+  &-positioner{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+  }
+
+  &-content-container{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+
+    position: relative;
+    justify-content: center;
+    align-items: center;
+
+    //todo tablet responsive
+    height: 400px;
+    width: 600px;
+    border-radius: 4px;
+    border: 2px solid rgb(0, 0, 0, 0.3);
+
+    // todo desktop responsive
+    height: 600px;
+    width: 900px;
+  }
+
+  &-button {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+  }
+}
