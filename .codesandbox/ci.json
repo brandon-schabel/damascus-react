@@ -1,6 +1,5 @@
 {
   "sandboxes": [
-    "https://codesandbox.io/s/damascus-react-storybook-2wgtt",
-    "vanilla"
+    "damascus-react-storybook-2wgtt"
   ]
 }
