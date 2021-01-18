@@ -1,5 +1,6 @@
 {
   "sandboxes": [
-    "damascus-react-storybook-2wgtt"
+    "damascus-template-luohi",
+    "vanilla"
   ]
 }
