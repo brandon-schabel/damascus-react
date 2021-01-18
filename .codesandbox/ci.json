@@ -1,6 +1,6 @@
 {
   "sandboxes": [
-    "react",
+    "damascus-template-luohi",
     "vanilla"
   ]
 }
